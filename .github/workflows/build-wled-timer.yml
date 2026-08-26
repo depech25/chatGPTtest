@@ -3,6 +3,8 @@ name: Build WLED Timer APK
 on:
   push:
     branches: [wled-timer-apk]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
